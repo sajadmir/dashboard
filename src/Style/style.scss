@@ -1,0 +1,26 @@
+
+@import "bootstrap/scss/bootstrap";
+
+// Navbar styles
+.navbar {
+  background-color: #343a40; // Dark background color
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #ffffff; // White color for links
+  &:hover {
+    color: #adb5bd; // Lighter color on hover
+  }
+}
+
+// Table styles
+.table {
+  th {
+    background-color: #343a40; // Dark background color for table header
+    color: #ffffff; // White text color
+  }
+}
